@@ -1,97 +1,93 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Fundamentos Title</title>
-    </head>
-    <body style="padding-bottom: 500px">
-        <h1>este em um titulo importante 1</h1>
-        <h3>Um titulo menor 3</h3>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- 4 - External CSS -->
+ <!-- Cascading Style Sheets -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/list.css">
+<link rel="stylesheet" href="css/titles.css">
+    <!-- 3 - internal CSS -->
 
-        <p>Descrição dos serviços da empresa p</p>
-        <p>outra descrição para praticar p</p>
+<style>
+    h5 {color: grey;
+    font-size: 40px;
+    }      
+</style>
+</head>
+<body>
+    <!-- 1 - Inline  CSS-->
+     <h1 style="color: blue;">Mudar cor com Inline</h1>
+     <h1 style="color: red;">Titulo teste 2</h1>
 
-        <p>paragrafo</p>
-        <br>
-        <p>teste de distancia br</p>
-        <hr />
-        <p>paragrado teste hr</p>
+     <!-- 2 multiplas regras -->
 
-         <!-- Este e um comentario secreto -->
-         <h2>outro titulo</h2>
-         <!-- outro comentario secreto -->
-          <!--5 links-->
+     <h1 style="color: green; font-size: 40px; border-bottom: 2px solid red">Mudar cor e tamanho do fonte</h1>
 
-          <a href="https://google.com">Google</a>
-          <p></p>
-          <a href="https://youtube.com">Youtube</a>
-          <p></p>
-          <a href="https://friv.com" target="_blank">Friv em nova aba </a>
-<p></p>
-        <!-- Nova Aba -->
-         <a href="https://google.com" target="_blank">Google em nova aba sem subtrair aba do nosso site</a>
-<p></p>
-         <!-- Imagens-->
+     <!-- 3 - internal CSS -->
+   <p> eu fui estilizado pelo internal</p>  
+<p> eu tambem 1</p>
+<p> eu tambem 2</p>
 
-         <img src="img/city.jpg" />
+<!-- External CSS-->
+ <h3> meu titulo verde</h3>
 
-         <!-- Atributo Alt-->
+ <!-- 5 - Ordem do CSS-->
+  <p style="color: red">Ordem do CSS</p>
+  <p> Ordem do CSS 2</p>
 
-<img src="img/nature.jpg" alt=" noite na floresta" />
-
-<!--- Listas não ordenadas-->
-
-<ul>
-    <li>carros</li>
-    <li>navios</li>
-    <li>aviao</li>
-    <li>submarinos</li>
+  <!-- 6 - multiplos CSS-->
+  <ul>
+    <li>Banana</li>
+    <li>Maçã</li>
+    <li>Laranja</li>
 </ul>
+    <!-- External CSS Desafio-->
+     <h4> Desafio feito </h4>
 
-<!--- LIstas ordenadas -->
+     <!-- Teste Proprio-->
 
-<ol> 
-    <li>arroz</li>
-    <li>feijao</li>
-    <li>bolo</li>
-    <li>estudos</li>
-</ol>
+     <h5> Teste Proprio</h5>
 
-<!--Tabelas-->
+     <!-- Classes -->
+<p class="paragraphe">Algum texto</p>
+<p class="paragraphe">Algum texto 2</p>
+<p class="paragraphe">Algum texto 3</p>
 
-<table>
-    <tr>
-        <th>ID:</th>
-        <th>Nome::</th>
-        <th>Profissçao:</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Gabriel</td>
-        <td>Programador</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>David</td>
-        <td>Policial</td>
-    </tr>
-     <tr>
-        <td>3</td>
-        <td>Nicolas</td>
-        <td>Pintor</td>
-    </tr>
-</table>
+<!-- ID -->
+ <h1 id="exclusive-title">Este titulo com ID</h1>
 
-<!--Div-->
+ <!-- multiplas regras , ordem CSS-->
+  <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+  <h2 class="titulo">Algum texto 2</h2>
+  <h2>Algum texto 3</h2>
 
-<div>
-    <h2>Segunda parte</h2>
-    <p> Descrição da segunda parte</p>
-    <a href="#">Saber mais</a>
-</div>
-<div>
-    <h2>Sobre
-        <p>Sobre o Gabriel Ribeiro</p>
-    </h2>
-</div>
-    </body>
+  <!-- nome de cor -->
+   <p class="color-name">Qualquer texto pra nome de cor</p>
+   
+   <!-- hex-->
+    <p class="hex"> Paragrafo com hex</p>
+    <p class="hex-2"> Paragrafo com hex 2</p>
+
+    <!-- mais sobre hex-->
+     <p class="simple-hex"> hex simplificado</p>
+     <p class="simple-hex-2"> hex simplificado 2</p>
+
+     <!-- RGB-->
+      <p class="rgb"> Estilizado com RGB</p>
+
+      <p class="mixed-rgb"> Estilizado com RGB</p>
+
+      <!-- RGBa-->
+
+      <p class="rgba"> Estilizado com RGBa</p>
+
+      <!-- HSL -->
+
+    <p class="hsl"> Estilizado com HSL</p>
+
+    <p class="hsl-2"> Estilizado com HSL 2</p>
+    <body>
 </html>
