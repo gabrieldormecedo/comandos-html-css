@@ -1,0 +1,95 @@
+/*4 - External CSS */
+body {
+  padding-bottom: 500px;  
+}
+
+h3 {
+    color: rgb(7, 179, 7);
+}
+
+p {
+    color: rgb(184, 11, 39);
+    font-size:20px;
+}
+
+/* Um comentario */
+/* Segundo Comentario */
+/* Terceiro Comentario */
+
+/* Classes */
+
+.paragraphe {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+/* ID */
+#exclusive-title {
+    background-color: pink;
+    color: yellow;
+    padding: 10px;
+}
+
+/* ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+     border-bottom: 3px solid blue;
+}
+
+  #algum-titulo {
+    border-bottom: 4px solid green;
+  }
+
+/* nome das cores */
+    .color-name {
+        color: crimson;
+    }
+
+    /* Hex */
+    .hex {
+        color: #00f623;
+    }
+
+    .hex-2 {
+        color: #1c8a94;
+    }
+
+    /* aprofundando hex */
+    .simple-hex {
+        color: #333;
+    }
+
+    /* Aprofundando com hex */
+    .simple-hex {
+        color: #333;
+    }
+
+     .simple-hex {
+        color: #a5f;
+    }
+
+    /* RGB  */
+    .rgb {
+        color: rgb(255, 0, 0);
+    }
+
+    .mixed-rgb {
+        color: rgb(167, 46, 67);
+    }
+
+    .rgba {
+        color: rgba(263, 91, 102, 0.5);
+    }
+
+    /* HSL */
+    .hsl {
+        color: hsl(100, 20%, 50%);
+    }
+
+    .hsl-2 {
+        color: hsl(201, 44%, 67%);
+    }
